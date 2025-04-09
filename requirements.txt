@@ -1,3 +1,6 @@
-pip
+pip>24
 mypy
 pillow
+zstandard
+setuptools
+numpy>2,<3
