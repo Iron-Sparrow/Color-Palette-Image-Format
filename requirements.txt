@@ -1,6 +1,7 @@
 pip>24
 mypy
 pillow
-zstandard
+zstandard>0.21
 setuptools
 numpy>2,<3
+cffi
