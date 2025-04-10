@@ -29,3 +29,14 @@ Following these "magic numbers" comes the actual image data:
   - When the last color of the palette is reached (thanks to the magic number indicating the palette length), it is followed by a series of unsigned integers which are the index of the required color in the palette.
   - The pixels are sorted into a flattened array with the `x` axis first and the `y` axis second. That means that the pixels are stored in a row-major order. The first pixel is the top-left pixel and the last pixel is the bottom-right pixel.<br>The array is arrange by rows which follow each other and every time we reach the size of the `x` axis, we increment the `y` axis.
   - Finally, at the end of the file, when we get out of the pixel array, we have metadata which is additional data that may be left there by other software or that indicate supplementary indications about the image. This metadata is not required and can be ignored by the software that reads the file. It is just there for additional information.<br>**BY DEFINITION, THE METADATA CANNOT BE EXECUTED AND CAN'T CONTAIN ANY CODE OR INFORMATION THAT COULD LEAD TO UNWANTED RESULTS.**
+
+## Planned Features for future versions
+- Support for 16 and 32 bits per pixel (unsigned integers).
+- Support for 16, 32, and 64 bits per pixel (floating point).
+- Support for `RGBA` format.
+- Support for `BBR` format.
+- Support for `BGRA` format.
+- Support for `CMYK` format.
+- Support for `HSV` format.
+- Support for `HSL` format.
+- Support for different Color Spaces/Color Profiles like `sRGB (1999)`, `Adobe RGB (1998)`, etc.
