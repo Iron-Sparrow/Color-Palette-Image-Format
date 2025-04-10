@@ -6,6 +6,9 @@ The file itself is binary for which gets compressed using Zstandard.
 
 The CoPIFF files are using arrays of unsigned integers to store the color palette and the pixels.
 
+The palette itself may be limited to a certain number of colors, which if it is defined, will convert the least common pixels to the closest color in the palette.
+This can be used in order to reduce file size at the cost of precision.
+
 ## File Extension
 
 The file extension for CoPIFF files are:
