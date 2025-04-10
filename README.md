@@ -11,6 +11,7 @@ The CoPIFF files are using arrays of unsigned integers to store the color palett
 The file extension for CoPIFF files is:
  - `.copiff` (recommended)
  - `.copif`
+ - `.CoPIFF`
 
 ## File Structure
 
