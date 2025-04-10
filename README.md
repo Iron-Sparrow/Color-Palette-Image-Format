@@ -44,3 +44,4 @@ Following these "magic numbers" comes the actual image data:
 - Support for `HSV` format.
 - Support for `HSL` format.
 - Support for different Color Spaces/Color Profiles like `sRGB (1999)`, `Adobe RGB (1998)`, etc.
+- Support for `Grayscale`.
